@@ -68,9 +68,9 @@ const Header = () => {
         </a>
       </div>
       <ul
-        className={`flex list-none p-0 m-0 ${
-          menuOpen ? "block" : "hidden"
-        } md:flex flex-col absolute top-0 right-0 bg-red-600 h-[100vh] pt-10 w-[120px] text-center text-white`}
+        // className={`flex list-none p-0 m-0 ${
+        //   menuOpen ? "block" : "hidden"
+        // } md:flex flex-col absolute top-0 right-0 bg-red-600 h-[100vh] pt-10 w-[120px] text-center text-white`}
       >
         <li className="m-2">
           <a
