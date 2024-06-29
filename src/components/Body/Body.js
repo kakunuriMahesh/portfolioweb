@@ -30,6 +30,7 @@ const Body = () => {
             </a>
             <a
             target="_blank"
+            rel="noreferrer" 
               href={pdfFile}
               download="Mahesh_k_Resume.pdf"
               className="inline-block no-underline p-2 bg-red-500 text-white m-1 rounded hover:bg-white hover:text-red-500 hover:border hover:border-red-500"
