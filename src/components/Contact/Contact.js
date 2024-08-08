@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import pdfFile from './MaheshKakunuriResume.pdf';
-
+import { TbBrandLinktree } from "react-icons/tb";
 const Contact = () => {
   const [formData, setFormData] = useState({
     Name: "", // Capital "N"
@@ -68,8 +68,8 @@ const Contact = () => {
               <a href="https://github.com/kakunuriMahesh">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.instagram.com/_n.a.n.i_9/#">
-                <i className="fa-brands fa-square-instagram"></i>
+              <a className="flex items-center underline" href="https://linktr.ee/maheshkakunuri">
+                <TbBrandLinktree className=" mr-2"/>Work Profile
               </a>
             </div>
             <a
